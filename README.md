@@ -1,3 +1,3 @@
 # Competitive-Programming
 
-Contains code templates fro different algorithms and data structures.
+Contains code templates for different algorithms and data structures.
