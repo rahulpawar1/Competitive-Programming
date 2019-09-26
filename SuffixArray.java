@@ -1,4 +1,4 @@
-public int[] suffixArray(String s) {
+       public int[] suffixArray(String s) {
             int n = s.length();
             Suffix[] su = new Suffix[n];
             for (int i = 0; i < n; i++) {
