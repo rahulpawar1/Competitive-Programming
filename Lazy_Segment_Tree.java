@@ -39,6 +39,7 @@ class Segment_tree {
         }
 
         void merge(int node) {
+            //do stuff like min, max, sum, etc
             sum[node] = Math.max(sum[node << 1], sum[node << 1 | 1]);
         }
 
