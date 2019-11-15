@@ -1,4 +1,4 @@
-	long getSum(long BITree[], int index) {
+   long getSum(long BITree[], int index) {
         index += 1;
         long sum = 0;
         while (index>0)
