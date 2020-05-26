@@ -21,7 +21,7 @@ void pre(){
         inv_fact[i] = power(fact[i], mod - 2, mod);
     }
 }
-long nCr(int n, int r){
+long long nCr(int n, int r){
     if(n < r)
         return 0;
     long long ans = fact[n];
